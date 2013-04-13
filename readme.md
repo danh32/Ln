@@ -24,3 +24,14 @@ In your code:
 - Ln.d("Server responded with %d: %s", responseCode, responseMessage);
 - Ln.e(illegalStateException);
 - Ln.wtf(illegalStateException, "UH-OH! %s", errorMsg);
+
+##To Build:
+###Maven:
+	mvn package
+
+###Eclipse:
+- right click project
+- export
+- Java -> JAR file
+- exclude the 'libs' directory from the jar
+- finish export
